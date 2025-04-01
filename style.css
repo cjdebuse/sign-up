@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+.img-side {
+    background: no-repeat center / auto 100% url(/images/halie-west-25xggax4bSA-unsplash.jpg);
+    position: relative;
+    width: 40vw;
+}
+
+.img-side > p {
+    bottom: 20px;
+    color: white;
+    left: 25%;
+    position: absolute;
+}
+
+.form-side {
+    width: 60vw;
+}
