@@ -6,6 +6,20 @@ body {
     width: 100vw;
 }
 
+button {
+    background-color: #596D48;
+    color: white;
+}
+
+form {
+    background-color: white;
+    display: flex;
+}
+
+label {
+    display: block;
+}
+
 .img-side {
     background: no-repeat center / auto 100% url(/images/halie-west-25xggax4bSA-unsplash.jpg);
     position: relative;
@@ -20,5 +34,6 @@ body {
 }
 
 .form-side {
+    background-color: rgb(240, 240, 240);
     width: 60vw;
 }
