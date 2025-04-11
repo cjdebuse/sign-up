@@ -67,6 +67,21 @@ input {
     margin-bottom: 20px;
 }
 
+input:focus {
+    border: 1px solid #1d4ed8;
+    box-shadow: 3px 3px 3px #d3d3d3;
+}
+
+input:focus-visible {
+    border: 1px solid #1d4ed8;
+    box-shadow: 3px 3px 3px #d3d3d3;
+    outline: none;
+}
+
+input:invalid {
+    border: 1px solid #b91c1c;
+}
+
 label {
     display: block;
     font-size: 10pt;
